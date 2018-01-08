@@ -1,0 +1,7 @@
+
+/.*.iml
+.idea/
+bridge_api.iml
+.byebug.*
+.byebug_history
+.*.gem

@@ -1,0 +1,99 @@
+{
+  "content": [
+    {
+      "communicationId": "00Z5V9BTINBT97UMERCA",
+      "type": "EMAIL",
+      "usageType": "BUSINESS",
+      "uri": "jd_work@noreplay.com",
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.paychex.com/workers/00Z5V9BTIHRQF2CF7BTH/communications/00Z5V9BTINBT97UMERCA"
+        }
+      ]
+    },
+    {
+     "communicationId": "00Z5V9BTINBT97UMERCB",
+      "type": "PHONE",
+      "usageType": "BUSINESS",
+      "dialCountry": "1",
+      "dialArea": "999",
+      "dialNumber": "8887777",
+      "dialExtension": "6",
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.paychex.com/workers/00Z5V9BTIHRQF2CF7BTH/communications/00Z5V9BTINBT97UMERCB"
+        }
+      ]
+    },
+    {
+      "communicationId": "00Z5V9BTINBT97UMERCC",
+      "type": "MOBILE_PHONE",
+      "usageType": "BUSINESS",
+      "dialCountry": "1",
+      "dialArea": "777",
+      "dialNumber": "6665555",
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.paychex.com/workers/00Z5V9BTIHRQF2CF7BTH/communications/00Z5V9BTINBT97UMERCC"
+        }
+      ]
+    },
+    {
+      "communicationId": "00Z5V9BTINBT97UMERCD",
+      "type": "FAX",
+      "usageType": "BUSINESS",
+      "dialCountry": "1",
+      "dialArea": "555",
+      "dialNumber": "4443333",
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.paychex.com/workers/00Z5V9BTIHRQF2CF7BTH/communications/00Z5V9BTINBT97UMERCD"
+        }
+      ]
+    },
+    {
+      "communicationId": "00Z5V9BTINBT97UMERCE",
+      "type": "PAGER",
+      "usageType": "BUSINESS",
+      "dialCountry": "1",
+      "dialArea": "666",
+      "dialNumber": "5554444",
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.paychex.com/workers/00Z5V9BTIHRQF2CF7BTH/communications/00Z5V9BTINBT97UMERCE"
+        }
+      ]
+    },
+    {
+      "communicationId": "00Z5V9BTINBT97UMERCF",
+      "type": "STREET_ADDRESS",
+      "streetLineOne": "1 Main Street",
+      "streetLineTwo": "Office 3",
+      "city": "Webster",
+      "countrySubdivisionCode": "NEW_YORK",
+      "postalCode": "14580",
+      "countryCode": "US",
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.paychex.com/workers/00Z5V9BTIHRQF2CF7BTH/communications/00Z5V9BTINBT97UMERCF"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://api.paychex.com/workers/00Z5V9BTIHRQF2CF7BTH/communications"
+    },
+    {
+      "rel": "create",
+      "href": "https://api.paychex.com/workers/00Z5V9BTIHRQF2CF7BTH/communications"
+    }
+  ]
+}

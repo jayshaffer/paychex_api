@@ -1,0 +1,32 @@
+{
+  "content": [
+    {
+      "organizationId": "970000055981384",
+      "name": "2 Division B",
+      "links": [
+        {
+          "rel": "self",
+          "href": "https://api.paychex.com/companies/99Z5V9BTI8J2FCGESC05/organizations/970000055981384"
+        },
+        {
+          "rel": "parent",
+          "href": "https://api.paychex.com/companies/99Z5V9BTI8J2FCGESC05/organizations/970000055981383"
+        },
+        {
+          "rel": "child",
+          "href": "https://api.paychex.com/companies/99Z5V9BTI8J2FCGESC05/organizations/970000055981385"
+        },
+        {
+          "rel": "child",
+          "href": "https://api.paychex.com/companies/99Z5V9BTI8J2FCGESC05/organizations/970000055981386"
+        }
+         ]
+    }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://api.paychex.com/companies/99Z5V9BTI8J2FCGESC05/organizations"
+    }
+  ]
+}

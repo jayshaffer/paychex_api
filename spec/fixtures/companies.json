@@ -1,0 +1,38 @@
+{
+   "metadata": {"contentItemCount": 1},
+   "content": [   {
+      "companyId": "99Z5V9BTI8J2FCGESC05",
+      "displayId": "09620579",
+      "legalName": "Monsters, Inc",
+      "legalId":       {
+         "legalIdType": "FEIN",
+         "legalIdValue": "995886885"
+      },
+      "communications": [      {
+         "type": "STREET_ADDRESS",
+         "usageType": "BUSINESS",
+         "streetLineOne": "Mike St",
+         "streetLineTwo": "Sulley Ln",
+         "city": "ANAHEIM",
+         "countrySubdivisionCode": "CA",
+         "postalCode": "92802",
+         "countryCode": "US"
+      }],
+      "links":       [
+                  {
+            "rel": "self",
+            "href": "https://api.paychex.com/companies/99Z5V9BTI8J2FCGESC05"
+         },
+                  {
+            "rel": "workers",
+            "href": "https://api.paychex.com/companies/99Z5V9BTI8J2FCGESC05/workers"
+         }
+      ]
+   }],
+   "links":    [
+            {
+         "rel": "self",
+         "href": "https://api.paychex.com/companies"
+      }
+   ]
+}

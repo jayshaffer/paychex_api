@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "contentItemCount": 5,
+    "pagination": {
+      "offset": 5,
+      "limit": 5,
+      "itemCount": 56
+    }
+  },
+  "content": [
+    {
+        "workerId": "00Z5V9BTIHRQF2CF7BTH",
+        "employeeId": "3052",
+        "workerType": "EMPLOYEE",
+        "employmentType": "FULL_TIME",
+        "exemptionType": "NON_EXEMPT",
+        "birthDate": "1899-07-01T00:00:00Z",
+        "clockId": "4321",
+        "sex": "MALE",
+        "ethnicityCode": "WHITE_NOT_OF_HISPANIC_ORIGIN",
+        "hireDate": "2015-06-15T00:00:00Z",
+        "name": {
+          "familyName": "JONES",
+          "middleName": "H",
+          "givenName": "INDIANA",
+          "preferredName": "Indi",
+          "qualificationAffixCode": "Jr",
+          "titleAffixCode": "DR"
+        },
+        "legalId": {
+          "legalIdType": "SSN",
+          "legalIdValue": "333221111"
+        },
+        "currentStatus": {
+          "workerStatusId": "00DWS906IMW2JSH8AQJ9",
+          "statusReason": "HIRED",
+          "statusType": "ACTIVE",
+          "effectiveDate": "2015-06-15T00:00:00Z"
+        },
+        "job": {
+          "jobTitleId": "00DWS906IMW2JSH8AQJ8",
+          "title": "Archaeologist"
+        },
+        "organization": {
+          "organizationId": "970000055981384",
+          "name": "2 Division B"
+        },
+        "supervisor": {
+          "workerId": "00H2A1IUJ4IPERJ589YE",
+          "name": {
+              "familyName": "Scott",
+              "givenName": "Willie"
+            }
+        },
+        "links": [
+          {
+            "rel": "self",
+            "href": "https://api.paychex.com/workers/00Z5V9BTIHRQF2CF7BTH"
+          },
+          {
+            "rel": "communications",
+            "href": "https://api.paychex.com/workers/00Z5V9BTIHRQF2CF7BTF/communications"
+          },
+          {
+            "rel": "supervisor",
+            "href": "https://api.paychex.com/workers/00H2A1IUJ4IPERJ589YE"
+          }
+        ]
+      }
+  ],
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://api.paychex.com/companies/00Z5V9BTI8J2FCGESC05/workers?offset=5&limit=5"
+    },
+    {
+      "rel": "next",
+      "href": "https://api.paychex.com/companies/00Z5V9BTI8J2FCGESC05/workers?offset=10&limit=5"
+    },
+    {
+      "rel": "prev",
+      "href": "https://api.paychex.com/companies/00Z5V9BTI8J2FCGESC05/workers?offset=0&limit=5"
+    }
+  ]
+}
