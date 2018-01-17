@@ -6,6 +6,10 @@ module PaychexAPI
         get("#{API_PATH}#{COMPANIES_PATH}/#{company_id}#{WORKERS_PATH}", params)
       end
 
+      def get_worker(worker_id, params = {})
+        get("#{API_PATH}#{WORKERS_PATH}/#{worker_id}", params)
+      end
+
       def get_communications(worker_id, params = {})
         get("#{API_PATH}#{WORKERS_PATH}/#{worker_id}#{COMMUNICATIONS_PATH}", params)
       end
