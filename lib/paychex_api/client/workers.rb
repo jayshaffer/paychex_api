@@ -1,7 +1,6 @@
 module PaychexAPI
   class Client
     module Workers
-
       def get_all_workers(company_id, params = {})
         get("#{API_PATH}#{COMPANIES_PATH}/#{company_id}#{WORKERS_PATH}", params)
       end
@@ -29,7 +28,6 @@ module PaychexAPI
       def delete_communication(worker_id, communication_id, params = {})
         delete("#{API_PATH}#{WORKERS_PATH}/#{worker_id}#{COMMUNICATIONS_PATH}/#{communication_id}", params)
       end
-
     end
   end
 end

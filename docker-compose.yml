@@ -1,0 +1,18 @@
+version: '2'
+
+services:
+  web:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      APP_DOMAIN: web
+      GERGICH_KEY: "${GERGICH_KEY}"
+      GERRIT_PROJECT: "${GERRIT_PROJECT}"
+      GERRIT_HOST: "${GERRIT_HOST}"
+      GERRIT_BRANCH: "${GERRIT_BRANCH}"
+    volumes:
+      - "coverage:/usr/src/app/coverage"
+
+volumes:
+  coverage: {}

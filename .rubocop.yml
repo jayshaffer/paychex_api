@@ -1,0 +1,24 @@
+AllCops:
+  Exclude:
+    - 'bin/**/*'
+    - 'node_modules/**/*'
+    - 'vendor/**/*'
+Metrics/ClassLength:
+  Max: 150
+Metrics/LineLength:
+  Max: 120
+Style/Documentation:
+  Enabled: false
+Metrics/BlockLength:
+  Exclude:
+    - 'paychex_api.gemspec'
+    - 'spec/**/*'
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/SymbolArray:
+  Enabled: false
+Metrics/MethodLength:
+    Exclude:
+      - spec/**/*
+Naming/AccessorMethodName:
+  Enabled: false

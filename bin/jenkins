@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+set +e
+EXIT_CODES=0
+
+echo "Analyzing ruby code with rubocop"
+bundle exec gergich capture rubocop "bundle exec rubocop --fail-level autocorrect"
+EXIT_CODES=$(($EXIT_CODES + $?))
+
+echo 'Running ruby specs'
+bundle exec rspec
+EXIT_CODES=$(($EXIT_CODES + $?))
+
+bundle exec gergich publish
+exit $EXIT_CODES

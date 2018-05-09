@@ -1,3 +1,3 @@
 module PaychexAPI
-  VERSION = '0.0.2' unless defined?(PaychexAPI::VERSION)
+  VERSION = '0.0.3'.freeze unless defined?(PaychexAPI::VERSION)
 end

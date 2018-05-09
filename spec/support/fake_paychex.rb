@@ -2,14 +2,22 @@ require 'sinatra/base'
 require 'tilt'
 
 class FakePaychex < Sinatra::Base
-
-  #auth
+  # auth
   post %r{/auth/oauth/v2/token$} do
     get_json_data 200, 'auth.json'
   end
 
-  #workers
-  get %r{/companies/\d+/workers$} do
+  # workers
+  get %r{/companies/.*/workers.*$} do
+    get_json_data 200, 'workers.json'
+  end
+
+  # workers
+  get %r{/companies/.*/workers/\+d+$} do
+    get_json_data 200, 'workers.json'
+  end
+
+  get %r{/workers/\d+$} do
     get_json_data 200, 'workers.json'
   end
 
@@ -33,7 +41,7 @@ class FakePaychex < Sinatra::Base
     get_json_data 200, 'communications.json'
   end
 
-  #companies
+  # companies
   get %r{/companies/\d+$} do
     get_json_data 200, 'companies.json'
   end
@@ -51,11 +59,10 @@ class FakePaychex < Sinatra::Base
   def get_json_data(response_code, file_name)
     content_type :json
     status response_code
-    unless file_name.nil?
-      File.open(File.dirname(__FILE__) + '/../fixtures/' + file_name).read
-    else
+    if file_name.nil?
       {}
+    else
+      File.open(File.dirname(__FILE__) + '/../fixtures/' + file_name).read
     end
   end
-
 end
